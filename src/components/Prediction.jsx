@@ -1,20 +1,33 @@
 import { useState, useEffect } from "react";
 //para que nos de los parámetros de la url
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
+import codes from "../data/bizkaia.json";
+import "./Prediction.css";
+
 const Prediction = () => {
   //Si no tiene municipio, ponemos uno por defecto
   let { id } = useParams();
-  if (id === undefined) {
-    id = 48004;
-  }
+  const navigate = useNavigate();
+
   const [predictions, setPredictions] = useState([]);
-  const [location, setLocation] = useState([]);
+  const [location, setLocation] = useState("");
+  const [locationCode, setLocationCode] = useState(null);
+
   const api_key =
     "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJpZ2VhcmthYmFpYUBnbWFpbC5jb20iLCJqdGkiOiJhY2YyOTUzMy04MmVkLTQ4NWUtYWZjYi1jZDgzMGRmY2EwZDIiLCJpc3MiOiJBRU1FVCIsImlhdCI6MTY4MzUzNTcwOCwidXNlcklkIjoiYWNmMjk1MzMtODJlZC00ODVlLWFmY2ItY2Q4MzBkZmNhMGQyIiwicm9sZSI6IiJ9.pYFtWr2xt7uw9x0f22RoP1cPiK9W-JGK7a2xyVw4WF8";
+
   useEffect(() => {
+    if (id !== undefined) {
+      setLocationCode(id);
+    }
+  }, [id]);
+
+  useEffect(() => {
+    if (!setLocationCode) return;
+    console.log(codes);
     //primer fecth nos da la ruta y la metemos en el siguiente fetch que nos da los datos
     fetch(
-      `https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/${id}?api_key=${api_key}`
+      `https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/horaria/${locationCode}?api_key=${api_key}`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -25,7 +38,7 @@ const Prediction = () => {
           .catch((error) => console.error(error));
       })
       .catch((error) => console.error(error));
-  }, []);
+  }, [locationCode]);
 
   const getPredictions = (data) => {
     const newPredictions = data[0].prediccion.dia;
@@ -53,21 +66,49 @@ const Prediction = () => {
     }
     return result;
   };
+  const getCode = (CPRO, CMUN) => {
+    let result = CMUN.toString();
+    while (result.length < 3) {
+      result = "0" + result;
+    }
+    result = CPRO.toString() + result;
+    return result;
+  };
+  const goTo = (location) => {
+    navigate(`/prediction/${location}`);
+  };
   return (
     <div className='prediction'>
       <h1>Predicciones {location}</h1>
+      <select
+        name='location'
+        id='location'
+        onChange={(e) => goTo(e.target.value)}
+        value={locationCode ? locationCode : ""}
+      >
+        {!locationCode && <option value=''>Selecciona un municipio</option>}
+        {codes.map((code, index) => (
+          <option key={index} value={getCode(code.CPRO, code.CMUN)}>
+            {code.NOMBRE}
+          </option>
+        ))}
+      </select>
       {predictions.map((prediction, index) => (
         <article key={index}>
-          <h1>{location}</h1>
-          <h2>fecha: {prediction.fecha.split("T")[0]}</h2>
-          <h2>orto: {prediction.orto}</h2>
-          <h2>ocaso: {prediction.ocaso}</h2>
+          <h1 className='location'>{location}</h1>
+          <h2 className='fecha'>Fecha: {prediction.fecha.split("T")[0]}</h2>
+          <h2 className='orto'>Orto: {prediction.orto}</h2>
+          <h2 className='ocaso'>Ocaso: {prediction.ocaso}</h2>
           <ul>
             {getHourPredictions(prediction).map((hourPrediction) => (
               <li key={hourPrediction.hora}>
-                <h3>hora: {hourPrediction.hora}</h3>
-                <h3>estadoCielo:{hourPrediction.estadoCielo}</h3>
-                <h3>temperatura:{hourPrediction.temperatura}</h3>
+                <h3 className='hora'>Hora: {hourPrediction.hora}</h3>
+                <h3 clasName='estadocielo'>
+                  Estado del cielo:{hourPrediction.estadoCielo}
+                </h3>
+                <h3 className='temperatura'>
+                  Temperatura:{hourPrediction.temperatura}
+                </h3>
               </li>
             ))}
           </ul>

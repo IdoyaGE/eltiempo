@@ -6,6 +6,12 @@ h1 {
   font-size: 24px;
   margin-bottom: 10px;
 }
+.location {
+  color: blue;
+}
+.orto {
+  color: yello;
+}
 
 h2 {
   font-size: 18px;

@@ -1,0 +1,674 @@
+[
+ {
+   "CPRO": 48,
+   "CMUN": 1,
+   "DC": 0,
+   "NOMBRE": "Abadiño"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 2,
+   "DC": 5,
+   "NOMBRE": "Abanto y Ciérvana-Abanto Zierbena"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 911,
+   "DC": 9,
+   "NOMBRE": "Ajangiz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 912,
+   "DC": 4,
+   "NOMBRE": "Alonsotegi"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 3,
+   "DC": 1,
+   "NOMBRE": "Amorebieta-Etxano"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 4,
+   "DC": 6,
+   "NOMBRE": "Amoroto"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 5,
+   "DC": 9,
+   "NOMBRE": "Arakaldo"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 6,
+   "DC": 2,
+   "NOMBRE": "Arantzazu"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 93,
+   "DC": 2,
+   "NOMBRE": "Areatza"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 9,
+   "DC": 7,
+   "NOMBRE": "Arrankudiaga"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 914,
+   "DC": 5,
+   "NOMBRE": "Arratzu"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 10,
+   "DC": 1,
+   "NOMBRE": "Arrieta"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 11,
+   "DC": 8,
+   "NOMBRE": "Arrigorriaga"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 23,
+   "DC": 7,
+   "NOMBRE": "Artea"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 8,
+   "DC": 4,
+   "NOMBRE": "Artzentales"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 91,
+   "DC": 1,
+   "NOMBRE": "Atxondo"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 70,
+   "DC": 8,
+   "NOMBRE": "Aulesti"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 12,
+   "DC": 3,
+   "NOMBRE": "Bakio"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 90,
+   "DC": 4,
+   "NOMBRE": "Balmaseda"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 13,
+   "DC": 9,
+   "NOMBRE": "Barakaldo"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 14,
+   "DC": 4,
+   "NOMBRE": "Barrika"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 15,
+   "DC": 7,
+   "NOMBRE": "Basauri"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 92,
+   "DC": 6,
+   "NOMBRE": "Bedia"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 16,
+   "DC": 0,
+   "NOMBRE": "Berango"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 17,
+   "DC": 6,
+   "NOMBRE": "Bermeo"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 18,
+   "DC": 2,
+   "NOMBRE": "Berriatua"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 19,
+   "DC": 5,
+   "NOMBRE": "Berriz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 20,
+   "DC": 9,
+   "NOMBRE": "Bilbao"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 21,
+   "DC": 6,
+   "NOMBRE": "Busturia"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 901,
+   "DC": 1,
+   "NOMBRE": "Derio"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 26,
+   "DC": 8,
+   "NOMBRE": "Dima"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 27,
+   "DC": 4,
+   "NOMBRE": "Durango"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 28,
+   "DC": 0,
+   "NOMBRE": "Ea"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 31,
+   "DC": 4,
+   "NOMBRE": "Elantxobe"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 32,
+   "DC": 9,
+   "NOMBRE": "Elorrio"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 902,
+   "DC": 6,
+   "NOMBRE": "Erandio"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 33,
+   "DC": 5,
+   "NOMBRE": "Ereño"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 34,
+   "DC": 0,
+   "NOMBRE": "Ermua"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 79,
+   "DC": 2,
+   "NOMBRE": "Errigoiti"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 29,
+   "DC": 3,
+   "NOMBRE": "Etxebarri"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 30,
+   "DC": 7,
+   "NOMBRE": "Etxebarria"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 906,
+   "DC": 3,
+   "NOMBRE": "Forua"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 35,
+   "DC": 3,
+   "NOMBRE": "Fruiz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 36,
+   "DC": 6,
+   "NOMBRE": "Galdakao"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 37,
+   "DC": 2,
+   "NOMBRE": "Galdames"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 38,
+   "DC": 8,
+   "NOMBRE": "Gamiz-Fika"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 39,
+   "DC": 1,
+   "NOMBRE": "Garai"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 40,
+   "DC": 5,
+   "NOMBRE": "Gatika"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 41,
+   "DC": 2,
+   "NOMBRE": "Gautegiz Arteaga"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 46,
+   "DC": 4,
+   "NOMBRE": "Gernika-Lumo"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 44,
+   "DC": 8,
+   "NOMBRE": "Getxo"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 47,
+   "DC": 0,
+   "NOMBRE": "Gizaburuaga"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 42,
+   "DC": 7,
+   "NOMBRE": "Gordexola"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 43,
+   "DC": 3,
+   "NOMBRE": "Gorliz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 45,
+   "DC": 1,
+   "NOMBRE": "Güeñes"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 48,
+   "DC": 6,
+   "NOMBRE": "Ibarrangelu"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 94,
+   "DC": 7,
+   "NOMBRE": "Igorre"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 49,
+   "DC": 9,
+   "NOMBRE": "Ispaster"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 910,
+   "DC": 2,
+   "NOMBRE": "Iurreta"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 50,
+   "DC": 2,
+   "NOMBRE": "Izurtza"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 22,
+   "DC": 1,
+   "NOMBRE": "Karrantza Harana/Valle de Carranza"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 907,
+   "DC": 9,
+   "NOMBRE": "Kortezubi"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 51,
+   "DC": 9,
+   "NOMBRE": "Lanestosa"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 52,
+   "DC": 4,
+   "NOMBRE": "Larrabetzu"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 53,
+   "DC": 0,
+   "NOMBRE": "Laukiz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 54,
+   "DC": 5,
+   "NOMBRE": "Leioa"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 57,
+   "DC": 7,
+   "NOMBRE": "Lekeitio"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 55,
+   "DC": 8,
+   "NOMBRE": "Lemoa"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 56,
+   "DC": 1,
+   "NOMBRE": "Lemoiz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 81,
+   "DC": 3,
+   "NOMBRE": "Lezama"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 903,
+   "DC": 2,
+   "NOMBRE": "Loiu"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 58,
+   "DC": 3,
+   "NOMBRE": "Mallabia"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 59,
+   "DC": 6,
+   "NOMBRE": "Mañaria"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 60,
+   "DC": 0,
+   "NOMBRE": "Markina-Xemein"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 61,
+   "DC": 7,
+   "NOMBRE": "Maruri-Jatabe"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 62,
+   "DC": 2,
+   "NOMBRE": "Mendata"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 63,
+   "DC": 8,
+   "NOMBRE": "Mendexa"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 64,
+   "DC": 3,
+   "NOMBRE": "Meñaka"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 66,
+   "DC": 9,
+   "NOMBRE": "Morga"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 68,
+   "DC": 1,
+   "NOMBRE": "Mundaka"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 69,
+   "DC": 4,
+   "NOMBRE": "Mungia"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 7,
+   "DC": 8,
+   "NOMBRE": "Munitibar-Arbatzegi Gerrikaitz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 908,
+   "DC": 5,
+   "NOMBRE": "Murueta"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 71,
+   "DC": 5,
+   "NOMBRE": "Muskiz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 67,
+   "DC": 5,
+   "NOMBRE": "Muxika"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 909,
+   "DC": 8,
+   "NOMBRE": "Nabarniz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 73,
+   "DC": 6,
+   "NOMBRE": "Ondarroa"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 75,
+   "DC": 4,
+   "NOMBRE": "Orozko"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 83,
+   "DC": 4,
+   "NOMBRE": "Ortuella"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 72,
+   "DC": 0,
+   "NOMBRE": "Otxandio"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 77,
+   "DC": 3,
+   "NOMBRE": "Plentzia"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 78,
+   "DC": 9,
+   "NOMBRE": "Portugalete"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 82,
+   "DC": 8,
+   "NOMBRE": "Santurtzi"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 84,
+   "DC": 9,
+   "NOMBRE": "Sestao"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 904,
+   "DC": 7,
+   "NOMBRE": "Sondika"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 85,
+   "DC": 2,
+   "NOMBRE": "Sopela"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 86,
+   "DC": 5,
+   "NOMBRE": "Sopuerta"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 76,
+   "DC": 7,
+   "NOMBRE": "Sukarrieta"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 87,
+   "DC": 1,
+   "NOMBRE": "Trucios-Turtzioz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 88,
+   "DC": 7,
+   "NOMBRE": "Ubide"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 65,
+   "DC": 6,
+   "NOMBRE": "Ugao-Miraballes"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 89,
+   "DC": 0,
+   "NOMBRE": "Urduliz"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 74,
+   "DC": 1,
+   "NOMBRE": "Urduña/Orduña"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 80,
+   "DC": 6,
+   "NOMBRE": "Valle de Trápaga-Trapagaran"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 95,
+   "DC": 0,
+   "NOMBRE": "Zaldibar"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 96,
+   "DC": 3,
+   "NOMBRE": "Zalla"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 905,
+   "DC": 0,
+   "NOMBRE": "Zamudio"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 97,
+   "DC": 9,
+   "NOMBRE": "Zaratamo"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 24,
+   "DC": 2,
+   "NOMBRE": "Zeanuri"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 25,
+   "DC": 5,
+   "NOMBRE": "Zeberio"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 913,
+   "DC": 0,
+   "NOMBRE": "Zierbena"
+ },
+ {
+   "CPRO": 48,
+   "CMUN": 915,
+   "DC": 8,
+   "NOMBRE": "Ziortza-Bolibar"
+ }
+]

@@ -39,6 +39,7 @@ const Beaches = () => {
   return (
     <div className='prediction'>
       <h1>Predicciones de playas {name}</h1>
+      <Link to='/'>Home</Link>
       {predictions.map((prediction, index) => (
         <article key={index}>
           <h2>Fecha: {prediction.fecha}</h2>
