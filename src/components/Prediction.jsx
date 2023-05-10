@@ -19,6 +19,10 @@ const Prediction = () => {
   useEffect(() => {
     if (id !== undefined) {
       setLocationCode(id);
+      const name = codes.find(
+        (code) => getCode(code.CPRO, code.CMUN) === id
+      ).NOMBRE;
+      setLocation(name);
     }
   }, [id]);
 
@@ -79,7 +83,7 @@ const Prediction = () => {
   };
   return (
     <div className='prediction'>
-      <h1>Predicciones {location}</h1>
+      <h1>Predicciones{location}</h1>
       <select
         name='location'
         id='location'
